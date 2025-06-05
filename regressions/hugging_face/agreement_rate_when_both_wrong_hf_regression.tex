@@ -1,0 +1,41 @@
+\begin{center}
+\begin{tabular}{lclc}
+\toprule
+\textbf{Dep. Variable:}             & agreement\_rate\_when\_both\_wrong & \textbf{  R-squared:         } &     0.340   \\
+\textbf{Model:}                     &                OLS                 & \textbf{  Adj. R-squared:    } &     0.340   \\
+\textbf{Method:}                    &           Least Squares            & \textbf{  F-statistic:       } &     2607.   \\
+\textbf{Date:}                      &          Tue, 03 Jun 2025          & \textbf{  Prob (F-statistic):} &     0.00    \\
+\textbf{Time:}                      &              23:18:40              & \textbf{  Log-Likelihood:    } &    67030.   \\
+\textbf{No. Observations:}          &                60726               & \textbf{  AIC:               } & -1.340e+05  \\
+\textbf{Df Residuals:}              &                60713               & \textbf{  BIC:               } & -1.339e+05  \\
+\textbf{Df Model:}                  &                   12               & \textbf{                     } &             \\
+\textbf{Covariance Type:}           &             nonrobust              & \textbf{                     } &             \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lcccccc}
+                                    & \textbf{coef} & \textbf{std err} & \textbf{t} & \textbf{P$> |$t$|$} & \textbf{[0.025} & \textbf{0.975]}  \\
+\midrule
+\textbf{Intercept}                  &       0.3984  &        0.001     &   656.121  &         0.000        &        0.397    &        0.400     \\
+\textbf{same\_company[T.True]}      &       0.0658  &        0.003     &    21.428  &         0.000        &        0.060    &        0.072     \\
+\textbf{same\_architecture[T.True]} &       0.0759  &        0.001     &   102.157  &         0.000        &        0.074    &        0.077     \\
+\textbf{is\_moe[T.True]}            &       0.0006  &        0.003     &     0.200  &         0.842        &       -0.005    &        0.007     \\
+\textbf{is\_moe\_2[T.True]}         &       0.0053  &        0.003     &     1.682  &         0.092        &       -0.001    &        0.011     \\
+\textbf{params\_billions\_log}      &       0.0012  &        0.000     &     2.569  &         0.010        &        0.000    &        0.002     \\
+\textbf{params\_billions\_log\_2}   &       0.0014  &        0.000     &     2.989  &         0.003        &        0.000    &        0.002     \\
+\textbf{generation}                 &       0.0031  &        0.000     &     7.710  &         0.000        &        0.002    &        0.004     \\
+\textbf{generation\_2}              &       0.0032  &        0.000     &     8.100  &         0.000        &        0.002    &        0.004     \\
+\textbf{param\_diff}                &      -0.0215  &        0.000     &   -52.082  &         0.000        &       -0.022    &       -0.021     \\
+\textbf{accuracy\_1}                &       0.0138  &        0.000     &    31.917  &         0.000        &        0.013    &        0.015     \\
+\textbf{accuracy\_2}                &       0.0131  &        0.000     &    30.087  &         0.000        &        0.012    &        0.014     \\
+\textbf{accuracy\_1:accuracy\_2}    &       0.0227  &        0.000     &    65.631  &         0.000        &        0.022    &        0.023     \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lclc}
+\textbf{Omnibus:}       & 19117.844 & \textbf{  Durbin-Watson:     } &     1.446  \\
+\textbf{Prob(Omnibus):} &    0.000  & \textbf{  Jarque-Bera (JB):  } & 80275.795  \\
+\textbf{Skew:}          &    1.507  & \textbf{  Prob(JB):          } &      0.00  \\
+\textbf{Kurtosis:}      &    7.758  & \textbf{  Cond. No.          } &      16.3  \\
+\bottomrule
+\end{tabular}
+%\caption{OLS Regression Results}
+\end{center}

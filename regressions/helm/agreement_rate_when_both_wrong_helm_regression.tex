@@ -1,0 +1,36 @@
+\begin{center}
+\begin{tabular}{lclc}
+\toprule
+\textbf{Dep. Variable:}          & agreement\_rate\_when\_both\_wrong & \textbf{  R-squared:         } &     0.613   \\
+\textbf{Model:}                  &                OLS                 & \textbf{  Adj. R-squared:    } &     0.612   \\
+\textbf{Method:}                 &           Least Squares            & \textbf{  F-statistic:       } &     981.2   \\
+\textbf{Date:}                   &          Tue, 03 Jun 2025          & \textbf{  Prob (F-statistic):} &     0.00    \\
+\textbf{Time:}                   &              22:12:34              & \textbf{  Log-Likelihood:    } &    3257.3   \\
+\textbf{No. Observations:}       &                 2485               & \textbf{  AIC:               } &    -6505.   \\
+\textbf{Df Residuals:}           &                 2480               & \textbf{  BIC:               } &    -6476.   \\
+\textbf{Df Model:}               &                    4               & \textbf{                     } &             \\
+\textbf{Covariance Type:}        &             nonrobust              & \textbf{                     } &             \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lcccccc}
+                                 & \textbf{coef} & \textbf{std err} & \textbf{t} & \textbf{P$> |$t$|$} & \textbf{[0.025} & \textbf{0.975]}  \\
+\midrule
+\textbf{Intercept}               &       0.6018  &        0.001     &   437.617  &         0.000        &        0.599    &        0.605     \\
+\textbf{same\_company[T.True]}   &       0.0216  &        0.005     &     4.753  &         0.000        &        0.013    &        0.031     \\
+\textbf{accuracy\_1}             &       0.0549  &        0.001     &    41.914  &         0.000        &        0.052    &        0.058     \\
+\textbf{accuracy\_2}             &       0.0544  &        0.001     &    41.478  &         0.000        &        0.052    &        0.057     \\
+\textbf{accuracy\_1:accuracy\_2} &       0.0264  &        0.001     &    19.460  &         0.000        &        0.024    &        0.029     \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lclc}
+\textbf{Omnibus:}       & 739.069 & \textbf{  Durbin-Watson:     } &    1.268  \\
+\textbf{Prob(Omnibus):} &   0.000 & \textbf{  Jarque-Bera (JB):  } & 3470.846  \\
+\textbf{Skew:}          &  -1.349 & \textbf{  Prob(JB):          } &     0.00  \\
+\textbf{Kurtosis:}      &   8.123 & \textbf{  Cond. No.          } &     3.51  \\
+\bottomrule
+\end{tabular}
+%\caption{OLS Regression Results}
+\end{center}
+
+Notes: \newline
+ [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
