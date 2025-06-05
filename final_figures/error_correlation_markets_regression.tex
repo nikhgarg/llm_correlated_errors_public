@@ -1,0 +1,38 @@
+\begin{center}
+\begin{tabular}{lclc}
+\toprule
+\textbf{Dep. Variable:}                                                        & error\_correlation & \textbf{  R-squared:         } &     0.415   \\
+\textbf{Model:}                                                                &        OLS         & \textbf{  Adj. R-squared:    } &     0.396   \\
+\textbf{Method:}                                                               &   Least Squares    & \textbf{  F-statistic:       } &     21.62   \\
+\textbf{Date:}                                                                 &  Thu, 29 May 2025  & \textbf{  Prob (F-statistic):} &  3.94e-19   \\
+\textbf{Time:}                                                                 &      00:03:42      & \textbf{  Log-Likelihood:    } &    248.85   \\
+\textbf{No. Observations:}                                                     &          190       & \textbf{  AIC:               } &    -483.7   \\
+\textbf{Df Residuals:}                                                         &          183       & \textbf{  BIC:               } &    -461.0   \\
+\textbf{Df Model:}                                                             &            6       & \textbf{                     } &             \\
+\textbf{Covariance Type:}                                                      &     nonrobust      & \textbf{                     } &             \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lcccccc}
+                                                                               & \textbf{coef} & \textbf{std err} & \textbf{t} & \textbf{P$> |$t$|$} & \textbf{[0.025} & \textbf{0.975]}  \\
+\midrule
+\textbf{Intercept}                                                             &       0.6534  &        0.007     &    89.839  &         0.000        &        0.639    &        0.668     \\
+\textbf{same\_company[T.True]}                                                 &       0.0210  &        0.012     &     1.694  &         0.092        &       -0.003    &        0.046     \\
+\textbf{latest\_model\_1[T.True]}                                              &       0.0155  &        0.013     &     1.211  &         0.228        &       -0.010    &        0.041     \\
+\textbf{latest\_model\_2[T.True]}                                              &       0.0047  &        0.014     &     0.346  &         0.729        &       -0.022    &        0.032     \\
+\textbf{correlation\_with\_human\_score\_1}                                    &       0.0151  &        0.006     &     2.627  &         0.009        &        0.004    &        0.026     \\
+\textbf{correlation\_with\_human\_score\_2}                                    &       0.0283  &        0.006     &     4.993  &         0.000        &        0.017    &        0.039     \\
+\textbf{correlation\_with\_human\_score\_1:correlation\_with\_human\_score\_2} &       0.0429  &        0.005     &     8.529  &         0.000        &        0.033    &        0.053     \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lclc}
+\textbf{Omnibus:}       & 10.964 & \textbf{  Durbin-Watson:     } &    2.309  \\
+\textbf{Prob(Omnibus):} &  0.004 & \textbf{  Jarque-Bera (JB):  } &   11.314  \\
+\textbf{Skew:}          &  0.527 & \textbf{  Prob(JB):          } &  0.00349  \\
+\textbf{Kurtosis:}      &  3.565 & \textbf{  Cond. No.          } &     3.46  \\
+\bottomrule
+\end{tabular}
+%\caption{OLS Regression Results}
+\end{center}
+
+Notes: \newline
+ [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
